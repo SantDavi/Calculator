@@ -82,7 +82,6 @@ function ClickKey({type,label}) {
     let p = document.querySelector(".previous-label") 
     let r = document.querySelector(".current-label")
 
-    alert(isValid(type))
     let valid = isValid(type)
     if (valid) {
         switch (type) { 
