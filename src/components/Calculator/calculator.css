@@ -1,0 +1,6 @@
+.Calculator {
+    display: inline-block;
+    background-color: hwb(0 50% 90%);
+    padding: 10px;
+    border-radius: 4%;
+}

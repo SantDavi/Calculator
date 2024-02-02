@@ -1,0 +1,24 @@
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 2.2rem;
+    background-color: hsl(0, 0%, 50%);
+    
+    color: hwb(0 89% 9%);
+    border-radius: 15%;
+}
+button:hover {
+    background-color: hsl(0, 0%, 60%);
+}
+
+button:active {
+    background-color: hsl(0, 0%, 30%);
+}
+
+
+.buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 4px;
+    
+}
